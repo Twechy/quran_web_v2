@@ -1,0 +1,52 @@
+name: quran_web_v2
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  hooks_riverpod: ^2.3.1
+  rxdart: ^0.27.7
+  dio: ^5.0.2
+  shared_preferences: ^2.0.18
+
+  google_fonts_arabic: ^1.1.7
+  clipboard: ^0.1.3
+  flutter_typeahead: ^4.3.7
+  badges: ^3.0.2
+  popup_menu: ^1.0.5
+  menu_button: ^1.4.2+1
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+    - family: hafs
+      fonts:
+        - asset: assets/fonts/hafs.ttf
+    - family: qalon
+      fonts:
+        - asset: assets/fonts/qalon.ttf
+    - family: wersh
+      fonts:
+        - asset: assets/fonts/warsh.ttf
+    - family: alBozy
+      fonts:
+        - asset: assets/fonts/alBozy.ttf
+
+  assets:
+    - assets/images/
+
